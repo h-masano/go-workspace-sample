@@ -8,5 +8,5 @@ import (
 
 func main() {
 	b := modb.ModB()
-	fmt.Printf("run moda, import ", b)
+	fmt.Println("run moda, import ", b)
 }
