@@ -1,0 +1,6 @@
+go 1.23.0
+
+use (
+	./module-c
+	./module-d
+)
