@@ -1,4 +1,4 @@
-package modb
+package modd
 
 import (
 	"fmt"
@@ -8,8 +8,8 @@ import (
 	"github.com/samber/lo"
 )
 
-func ModB() string {
-	str := "modb"
+func ModD() string {
+	str := "modd"
 	lo.ToPtr(str)
 
 	// show module versions in mod-d
@@ -19,7 +19,7 @@ func ModB() string {
 		return "fail in modd"
 	}
 
-	fmt.Println("----------------------module-b----------------------")
+	fmt.Println("----------------------module-d----------------------")
 	for _, dep := range bi.Deps {
 		fmt.Printf("Dep: %+v\n", dep)
 	}
