@@ -1,0 +1,6 @@
+go 1.23.0
+
+use (
+	./module-d
+	./workspace-2/module-c
+)
